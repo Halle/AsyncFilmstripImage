@@ -9,11 +9,11 @@ import SwiftUI
 
 // MARK: - AsyncFilmstripImage
 
-/// A SwiftUI view that asynchronously and progressively loads a composed filmstrip image from
-/// a **Media** with a URL in the local filesystem, supporting the use of a progress indicator or other
-/// temporary view until it is complete or fails. It optionally supports threadsafe image caching and
-/// cache fetching when passed an instance of a class conforming to **AtomicImageCaching**,
-/// which enforces atomicity.
+/* A SwiftUI view that asynchronously and progressively loads a composed filmstrip image from
+a **Media** with a URL in the local filesystem, supporting the use of a progress indicator or other
+temporary view until it is complete or fails. It optionally supports threadsafe image caching and
+cache fetching when passed an instance of a class conforming to **AtomicImageCaching**,
+which enforces atomicity. */
 ///
 /// In the case of a **Media** URL pointing to a locally-downloaded movie, it will load a filmstrip image that
 /// is a rows by columns matrix of stills from the movie, taken from equally-spaced time intervals
